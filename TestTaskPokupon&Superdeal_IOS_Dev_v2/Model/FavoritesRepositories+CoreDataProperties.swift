@@ -13,15 +13,15 @@ import CoreData
 
 extension FavoritesRepositories {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<FavoritesRepositories> {
+    @nonobjc public class func createFetchRequest() -> NSFetchRequest<FavoritesRepositories> {
         return NSFetchRequest<FavoritesRepositories>(entityName: "FavoritesRepositories")
     }
 
     @NSManaged public var forkCount: Int16
-    @NSManaged public var reposName: String?
-    @NSManaged public var reposUrl: String?
+    @NSManaged public var reposName: String
+    @NSManaged public var reposUrl: String
     @NSManaged public var starCount: Int16
-    @NSManaged public var userName: String?
+    @NSManaged public var userName: String
     @NSManaged public var watchCount: Int16
 
 }

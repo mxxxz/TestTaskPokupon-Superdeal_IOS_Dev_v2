@@ -7,3 +7,6 @@
 //
 
 import Foundation
+struct testStruct {
+    var testAr: Array<String> = Array()
+}

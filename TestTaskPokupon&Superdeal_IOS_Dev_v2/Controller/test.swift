@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import UIKit
+class test{
+    override var prefersStatusBarHidden: Bool  {
+        return true 
+    }
+}

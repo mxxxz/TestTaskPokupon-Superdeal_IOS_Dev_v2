@@ -7,11 +7,10 @@
 //
 
 import Foundation
-struct UserRepositories {
+struct RepositoriesInfo: Decodable {
     let name: String
     let stargazersCount: Int
     let watchersCount: Int
     let forksCount: Int
-    let language: String?
     let svnUrl: String
 }

@@ -13,7 +13,6 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.delegate = self
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,10 +25,23 @@ extension TabBarController: UITabBarControllerDelegate {
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
         if viewController is FavoritesViewController {
             if let FavoritesVC = viewController as? FavoritesViewController {
-                FavoritesVC.tableView.reloadData()
-                FavoritesVC.tabBar.badgeValue = String(favoritesData.count)
-                print("СРАБОТАЛО!!!!")
+                CoreDataManager.fetchResultControllerFunc { (result: Bool) in
+                    if result{
+                        FavoritesCountHelper.changeBadgeValue(VC: FavoritesVC)
+                        FavoritesVC.tableView.reloadData()
+                    }
+                }
+            }
+        }else if viewController is SearchViewController {
+            if let SearchVC = viewController as? SearchViewController {
+                DUPLICATEREPOSARRAY = []
+                ReposIsAdded = []
+                DuplicationDataController.nameSearch(userName: SearchVC.searchContext)
+                DuplicationDataController.createControllArray()
+                DuplicationDataController.changeControllArray()
+                SearchVC.tableView.reloadData()
             }
         }
     }
 }
+

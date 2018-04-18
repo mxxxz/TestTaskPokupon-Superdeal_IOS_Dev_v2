@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492B3C102083B16200D2EACA /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492B3C0F2083B16200D2EACA /* CoreDataManager.swift */; };
+		4938C33420877C7B004E09DF /* DuplicationDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4938C33320877C7B004E09DF /* DuplicationDataController.swift */; };
+		498C8CC82083E35D00D70F29 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498C8CC72083E35D00D70F29 /* WebViewController.swift */; };
+		498F422A2082727C0087946E /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F42292082727C0087946E /* FavoritesViewController.swift */; };
+		498F422C208272A70087946E /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F422B208272A70087946E /* FavoritesTableViewCell.swift */; };
 		499520F6207E533900EB901F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499520F5207E533900EB901F /* AppDelegate.swift */; };
-		499520F8207E533900EB901F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499520F7207E533900EB901F /* ViewController.swift */; };
+		499520F8207E533900EB901F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499520F7207E533900EB901F /* SearchViewController.swift */; };
 		499520FB207E533900EB901F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499520F9207E533900EB901F /* Main.storyboard */; };
 		499520FE207E533900EB901F /* TestTaskPokupon_Superdeal_IOS_Dev_v2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 499520FC207E533900EB901F /* TestTaskPokupon_Superdeal_IOS_Dev_v2.xcdatamodeld */; };
 		49952100207E533900EB901F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499520FF207E533900EB901F /* Assets.xcassets */; };
 		49952103207E533900EB901F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49952101207E533900EB901F /* LaunchScreen.storyboard */; };
+		49952111207E544000EB901F /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49952110207E544000EB901F /* UserInfoModel.swift */; };
+		49952113207E5BAE00EB901F /* GitHubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49952112207E5BAE00EB901F /* GitHubService.swift */; };
+		49A3FCDE20851BE3003E6B66 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3FCDD20851BE3003E6B66 /* TabBarController.swift */; };
+		49B78EE1207E6F2400BC4608 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B78EE0207E6F2400BC4608 /* SearchTableViewCell.swift */; };
+		49B78EE7207E775200BC4608 /* RepositoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B78EE6207E775200BC4608 /* RepositoriesModel.swift */; };
+		49D10C00208667DC005AF693 /* ControllersExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D10BFF208667DC005AF693 /* ControllersExtensions.swift */; };
+		49D10C05208669BE005AF693 /* FavoritesRepositories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D10C03208669BE005AF693 /* FavoritesRepositories+CoreDataClass.swift */; };
+		49D10C06208669BE005AF693 /* FavoritesRepositories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D10C04208669BE005AF693 /* FavoritesRepositories+CoreDataProperties.swift */; };
+		49D10C08208671EF005AF693 /* FavoritesCountHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D10C07208671EF005AF693 /* FavoritesCountHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		492B3C0F2083B16200D2EACA /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4938C33320877C7B004E09DF /* DuplicationDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicationDataController.swift; sourceTree = "<group>"; };
+		498C8CC72083E35D00D70F29 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		498F42292082727C0087946E /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		498F422B208272A70087946E /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
 		499520F2207E533900EB901F /* TestTaskPokupon&Superdeal_IOS_Dev_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestTaskPokupon&Superdeal_IOS_Dev_v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		499520F5207E533900EB901F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		499520F7207E533900EB901F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		499520F7207E533900EB901F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		499520FA207E533900EB901F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		499520FD207E533900EB901F /* TestTaskPokupon_Superdeal_IOS_Dev_v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestTaskPokupon_Superdeal_IOS_Dev_v2.xcdatamodel; sourceTree = "<group>"; };
 		499520FF207E533900EB901F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49952102207E533900EB901F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49952104207E533900EB901F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49952110207E544000EB901F /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		49952112207E5BAE00EB901F /* GitHubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubService.swift; sourceTree = "<group>"; };
+		49A3FCDD20851BE3003E6B66 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		49B78EE0207E6F2400BC4608 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		49B78EE6207E775200BC4608 /* RepositoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesModel.swift; sourceTree = "<group>"; };
+		49D10BFF208667DC005AF693 /* ControllersExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllersExtensions.swift; sourceTree = "<group>"; };
+		49D10C03208669BE005AF693 /* FavoritesRepositories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoritesRepositories+CoreDataClass.swift"; sourceTree = "<group>"; };
+		49D10C04208669BE005AF693 /* FavoritesRepositories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoritesRepositories+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		49D10C07208671EF005AF693 /* FavoritesCountHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCountHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		492B3C0E2083B14E00D2EACA /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				492B3C0F2083B16200D2EACA /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		4938C33220877C2A004E09DF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				49D10C07208671EF005AF693 /* FavoritesCountHelper.swift */,
+				4938C33320877C7B004E09DF /* DuplicationDataController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		498C8CC92083ED6D00D70F29 /* WebController */ = {
+			isa = PBXGroup;
+			children = (
+				498C8CC72083E35D00D70F29 /* WebViewController.swift */,
+			);
+			path = WebController;
+			sourceTree = "<group>";
+		};
+		498F4228208272660087946E /* FavoritesController */ = {
+			isa = PBXGroup;
+			children = (
+				498F42292082727C0087946E /* FavoritesViewController.swift */,
+				498F422B208272A70087946E /* FavoritesTableViewCell.swift */,
+			);
+			path = FavoritesController;
+			sourceTree = "<group>";
+		};
 		499520E9207E533900EB901F = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +118,107 @@
 		499520F4207E533900EB901F /* TestTaskPokupon&Superdeal_IOS_Dev_v2 */ = {
 			isa = PBXGroup;
 			children = (
-				499520F5207E533900EB901F /* AppDelegate.swift */,
-				499520F7207E533900EB901F /* ViewController.swift */,
-				499520F9207E533900EB901F /* Main.storyboard */,
-				499520FF207E533900EB901F /* Assets.xcassets */,
-				49952101207E533900EB901F /* LaunchScreen.storyboard */,
-				49952104207E533900EB901F /* Info.plist */,
-				499520FC207E533900EB901F /* TestTaskPokupon_Superdeal_IOS_Dev_v2.xcdatamodeld */,
+				4995210A207E534100EB901F /* Model */,
+				4995210B207E534700EB901F /* View */,
+				4995210D207E535400EB901F /* Controller */,
+				4995210E207E535A00EB901F /* Support */,
 			);
 			path = "TestTaskPokupon&Superdeal_IOS_Dev_v2";
+			sourceTree = "<group>";
+		};
+		4995210A207E534100EB901F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49D10C03208669BE005AF693 /* FavoritesRepositories+CoreDataClass.swift */,
+				49D10C04208669BE005AF693 /* FavoritesRepositories+CoreDataProperties.swift */,
+				49B78EE4207E72F500BC4608 /* ApiModels */,
+				499520FC207E533900EB901F /* TestTaskPokupon_Superdeal_IOS_Dev_v2.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4995210B207E534700EB901F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4995210C207E534C00EB901F /* StoryBoard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4995210C207E534C00EB901F /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				499520F9207E533900EB901F /* Main.storyboard */,
+				49952101207E533900EB901F /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		4995210D207E535400EB901F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4938C33220877C2A004E09DF /* Helpers */,
+				49D10C01208667E4005AF693 /* Extensions */,
+				49A3FCDF20851CF9003E6B66 /* TabBarController */,
+				49B78EDF207E690700BC4608 /* SearchController */,
+				498F4228208272660087946E /* FavoritesController */,
+				498C8CC92083ED6D00D70F29 /* WebController */,
+				492B3C0E2083B14E00D2EACA /* CoreDataManager */,
+				4995210F207E53D200EB901F /* ServiceManager */,
+				499520F5207E533900EB901F /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4995210E207E535A00EB901F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				49952104207E533900EB901F /* Info.plist */,
+				499520FF207E533900EB901F /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		4995210F207E53D200EB901F /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				49952112207E5BAE00EB901F /* GitHubService.swift */,
+			);
+			path = ServiceManager;
+			sourceTree = "<group>";
+		};
+		49A3FCDF20851CF9003E6B66 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				49A3FCDD20851BE3003E6B66 /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		49B78EDF207E690700BC4608 /* SearchController */ = {
+			isa = PBXGroup;
+			children = (
+				499520F7207E533900EB901F /* SearchViewController.swift */,
+				49B78EE0207E6F2400BC4608 /* SearchTableViewCell.swift */,
+			);
+			path = SearchController;
+			sourceTree = "<group>";
+		};
+		49B78EE4207E72F500BC4608 /* ApiModels */ = {
+			isa = PBXGroup;
+			children = (
+				49952110207E544000EB901F /* UserInfoModel.swift */,
+				49B78EE6207E775200BC4608 /* RepositoriesModel.swift */,
+			);
+			path = ApiModels;
+			sourceTree = "<group>";
+		};
+		49D10C01208667E4005AF693 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49D10BFF208667DC005AF693 /* ControllersExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,7 +248,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Dmitry Grusha";
 				TargetAttributes = {
 					499520F1207E533900EB901F = {
@@ -139,9 +293,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499520F8207E533900EB901F /* ViewController.swift in Sources */,
+				49952113207E5BAE00EB901F /* GitHubService.swift in Sources */,
+				49D10C08208671EF005AF693 /* FavoritesCountHelper.swift in Sources */,
+				4938C33420877C7B004E09DF /* DuplicationDataController.swift in Sources */,
+				49D10C06208669BE005AF693 /* FavoritesRepositories+CoreDataProperties.swift in Sources */,
+				498F422C208272A70087946E /* FavoritesTableViewCell.swift in Sources */,
+				499520F8207E533900EB901F /* SearchViewController.swift in Sources */,
+				49D10C00208667DC005AF693 /* ControllersExtensions.swift in Sources */,
+				498F422A2082727C0087946E /* FavoritesViewController.swift in Sources */,
 				499520FE207E533900EB901F /* TestTaskPokupon_Superdeal_IOS_Dev_v2.xcdatamodeld in Sources */,
+				49B78EE1207E6F2400BC4608 /* SearchTableViewCell.swift in Sources */,
+				498C8CC82083E35D00D70F29 /* WebViewController.swift in Sources */,
 				499520F6207E533900EB901F /* AppDelegate.swift in Sources */,
+				49D10C05208669BE005AF693 /* FavoritesRepositories+CoreDataClass.swift in Sources */,
+				49B78EE7207E775200BC4608 /* RepositoriesModel.swift in Sources */,
+				49A3FCDE20851BE3003E6B66 /* TabBarController.swift in Sources */,
+				49952111207E544000EB901F /* UserInfoModel.swift in Sources */,
+				492B3C102083B16200D2EACA /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +349,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +357,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -238,6 +408,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +416,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -280,7 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z79C2N47F;
-				INFOPLIST_FILE = "TestTaskPokupon&Superdeal_IOS_Dev_v2/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TestTaskPokupon&Superdeal_IOS_Dev_v2/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.dmitrygrusha.TestTaskPokupon-Superdeal-IOS-Dev-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,7 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z79C2N47F;
-				INFOPLIST_FILE = "TestTaskPokupon&Superdeal_IOS_Dev_v2/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TestTaskPokupon&Superdeal_IOS_Dev_v2/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.dmitrygrusha.TestTaskPokupon-Superdeal-IOS-Dev-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";

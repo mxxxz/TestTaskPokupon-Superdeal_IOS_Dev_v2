@@ -10,6 +10,14 @@ import UIKit
 
 class FavoritesTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var nameOfRepos: UILabel!
+    @IBOutlet weak var userName: UILabel!
+    
+    @IBOutlet weak var userAvatar: UIImageView!
+    @IBOutlet weak var watchCount: UILabel!
+    @IBOutlet weak var starCount: UILabel!
+    @IBOutlet weak var forkCount: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

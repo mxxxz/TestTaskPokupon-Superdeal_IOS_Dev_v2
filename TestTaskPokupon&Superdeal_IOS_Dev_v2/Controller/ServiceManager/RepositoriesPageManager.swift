@@ -7,3 +7,10 @@
 //
 
 import Foundation
+class RepositoriesPageManager {
+    let service = GitHubService()
+    var testArr = [String]()
+    func PageHandler(){
+        
+    }
+}

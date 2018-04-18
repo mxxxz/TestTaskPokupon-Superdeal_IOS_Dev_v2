@@ -9,27 +9,18 @@
 import UIKit
 
 class DebugViewController: UIViewController {
-
+    let service = GitHubService()
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+//        service.findUserInformation(UserName: "mxxxz") { (result: String) in
+//            if result == "done"{
+//                print(self.service.UserInfoArray)
+//            }
+//        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+//    func hardProcessingWithString(input: String, completion: (_ result: String) -> Void) {
+//        print("start")
+//        service.findUserInformation(UserName: "mxxxz")
+//        completion("we finished!")
+//    }
 }
