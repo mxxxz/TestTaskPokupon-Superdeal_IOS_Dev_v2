@@ -8,8 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class SearchViewController: UIViewController {
+    
+    let Service: GitHubService = GitHubService()
+    
+    @IBAction func test(_ sender: UIButton) {
+        Service.findUserInformation()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
